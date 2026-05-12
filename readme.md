@@ -46,15 +46,13 @@ For the ball to properly follow a surface curve:
 
 - Ball velocity must align with the surface tangent direction.
 - Ball speed must remain above a configurable threshold.
-- The threshold value used in the submitted build is **5**.
 
 ## Velocity Assistance
 
 If the follow requirements are met:
 
 - The current velocity is projected relative to the surface normal.
-- This projection smooths out traversal along curved geometry.
-- The result is more natural and stable movement across surfaces.
+- The result is more smooth and stable movement across curves.
 
 ## Failed Surface Hit
 
@@ -75,7 +73,7 @@ A collision is considered a failed hit when:
 
 # Possible Improvements
 
-- Introduce dynamic camera feedback during movement.
+- Introduce dynamic camera feedback during movement such as camera shake.
 - Add adjustable sensitivity and launch-force tuning.
 - Implement more particles and sound effects for better game feel.
 - Optimize surface detection logic for more complex environments.
