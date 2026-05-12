@@ -1,4 +1,4 @@
-# Internship Assignment – Surface Ball Mechanics
+# Web3Task Internship Assignment
 
 ## Overview
 This project demonstrates a physics-based ball interaction system with curved surface traversal mechanics.  
