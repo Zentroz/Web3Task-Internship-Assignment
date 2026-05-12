@@ -62,10 +62,6 @@ A collision is considered a failed hit when:
 
 - The impact vector (inverse velocity direction) strongly aligns with the surface normal.
 
-In this situation:
-- Surface traversal assistance is not applied.
-- The ball reacts as a standard collision response.
-
 ---
 
 # Challenges Faced
@@ -73,23 +69,20 @@ In this situation:
 - Maintaining smooth movement across highly curved surfaces.
 - Preventing abrupt velocity changes during transitions.
 - Balancing responsiveness while preserving realistic physics behavior.
-- Detecting valid surface-follow states without unwanted snapping.
+- Detecting valid surface-follow states.
 
 ---
 
 # Possible Improvements
 
-- Add visual trajectory prediction before launch.
 - Introduce dynamic camera feedback during movement.
-- Improve collision handling for edge cases on sharp curves.
 - Add adjustable sensitivity and launch-force tuning.
-- Implement particle and sound effects for better game feel.
+- Implement more particles and sound effects for better game feel.
 - Optimize surface detection logic for more complex environments.
 
 ---
 
 # Technical Notes
 
-- Surface-follow behavior is physics-assisted rather than fully scripted.
+- Surface-follow behavior is assisted rather than fully scripted.
 - Threshold values are exposed in the Inspector for easier tuning.
-- The implementation prioritizes smooth gameplay feel while keeping the logic modular and extendable.
