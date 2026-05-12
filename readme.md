@@ -1,8 +1,7 @@
 # Web3Task Internship Assignment
 
 ## Overview
-This project demonstrates a physics-based ball interaction system with curved surface traversal mechanics.  
-The primary focus of the assignment is implementing intuitive touch controls and smooth surface-following behavior based on velocity projection and surface normals.
+This project implements a projectile-based interaction mechanic where player input, angle, and force determine the outcome.
 
 ---
 
